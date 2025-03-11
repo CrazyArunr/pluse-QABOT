@@ -185,13 +185,13 @@ for feature in data:
         documents.append(Document(page_content=content, metadata={"feature": feature["feature"], "scenario": scenario["title"]}))
 
 # Initialize OpenAI embeddings
-embeddings = OpenAIEmbeddings(openai_api_key="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")
+embeddings = OpenAIEmbeddings(openai_api_key="xxxxx")
 
 # Create FAISS vector store
 vector_store = FAISS.from_documents(documents, embeddings)
 
 # Initialize OpenAI LLM
-openai_llm = ChatOpenAI(model="gpt-4", temperature=0.1, openai_api_key="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")
+openai_llm = ChatOpenAI(model="gpt-4", temperature=0.1, openai_api_key="xxxxx")
 
 # Create RAG pipeline
 rag_pipeline = RetrievalQA.from_chain_type(llm=openai_llm, chain_type="stuff", retriever=vector_store.as_retriever())
