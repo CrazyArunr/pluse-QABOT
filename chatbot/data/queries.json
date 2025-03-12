@@ -1,0 +1,7 @@
+[
+    {"query": "How do I login with valid credentials?"},
+    {"query": "What are the steps for user registration?"},
+    {"query": "How do I reset my password?"},
+    {"query": "What happens if I try to login with invalid credentials?"},
+    {"query": "How do I update my profile with an invalid phone number?"}
+]
