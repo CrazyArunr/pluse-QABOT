@@ -13,7 +13,6 @@ Testing the API
 
 API Endpoint
 
-Contributing
 
 License
 Project Structure
