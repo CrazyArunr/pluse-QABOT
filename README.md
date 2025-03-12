@@ -1,4 +1,4 @@
-# FastAPI Chatbot for QA Automation
+# Pluse QA Automation Chatbot 
 
 Getting answers automatically is magic!! It's real AI (remember, the Turing Test?).
 
