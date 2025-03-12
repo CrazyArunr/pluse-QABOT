@@ -52,7 +52,7 @@ Clone the Repository:
 
 bash
 Copy
-git clone https://github.com/your-username/fastapi-chatbot.git
+git clone https://github.com/CrazyArunr/pluse-QABOT.git
 cd fastapi-chatbot
 Install Dependencies:
 
@@ -80,8 +80,6 @@ Add Sample Queries:
 
 Add your sample queries to data/queries.json. Example:
 
-json
-Copy
 [
     {"query": "How do I login with valid credentials?"},
     {"query": "What are the steps for user registration?"},
@@ -99,7 +97,8 @@ The application will be available at http://localhost:8000.
 
 Access the API:
 
-You can interact with the API using the /chat endpoint. For example:
+You can interact with the API using the /chat endpoint. 
+For example:
 
 bash
 Copy
