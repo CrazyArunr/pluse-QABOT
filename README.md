@@ -133,18 +133,6 @@ Copy
 {
     "response": "Feature: Login Functionality\nScenario: Valid login with correct credentials\nGiven open browser 'chrome'\nAnd navigate to the URL 'https://example.com/login'\nAnd maximize the browser window\nWhen enter 'testuser' into the element with locator '#username'\nAnd enter 'password123' into the element with locator '#password'\nAnd click on the element with locator '#login-button'\nThen wait for the element with locator '#dashboard' to be visible\nAnd the element with locator '#dashboard' should have text 'User Dashboard'"
 }
-Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature/YourFeatureName).
-
-Commit your changes (git commit -m 'Add some feature').
-
-Push to the branch (git push origin feature/YourFeatureName).
-
-Open a pull request.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
